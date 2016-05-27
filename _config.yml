@@ -1,18 +1,30 @@
-analytics: {}
-color:
-  brandColors:
-    - '#B0C8C8'
-    - '#000000'
-    - '#98A8A8'
-    - '#000000'
-    - '#000000'
-  brandStrength: 0.8238528177607805
-  lightness: 0.3897284818813205
-  rhythmicContrast: 0.9663730871398002
-  saturation: 0.6697321792598814
-cta: {}
-layout_spectrum: 0.42023
-name: wkramsey
-opengraph: {}
 purpose: []
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+opengraph: {}
+color:
+  saturation: 0.6697321792598814
+  brandStrength: 0.7819549
+  lightness: 0.3897284818813205
+  brandColors:
+    - '#131514'
+    - '#FFFFFF'
+    - '#B9CCD0'
+    - '#727972'
+    - '#333C39'
+  rhythmicContrast: 0.9663730871398002
 typography_spectrum: 0.736019
+layout_spectrum: 0.42023
+cta: {}
+analytics: {}
+name: wkramsey
